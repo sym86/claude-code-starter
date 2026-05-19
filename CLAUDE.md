@@ -3,6 +3,11 @@
 > Keep this file lean. If a section grows past ~30 lines, move it to a file
 > under `docs/` and replace it with a one-line pointer in the Routing Map.
 
+## 0. Stack
+
+**TypeScript + Node.js.** See `docs/conventions.md` for the full
+language/style rules.
+
 ## 1. Memory System
 
 - At the **start of every session**, read `.claude/memory.md` for active context.
@@ -46,11 +51,12 @@ Load **only what's needed** — don't preload everything.
 | Drafting a PR description            | `.claude/commands/pr-desc.md`    |
 | Adding tests for existing code       | `.claude/commands/add-test.md`   |
 | Self-reviewing a diff before push    | `.claude/commands/code-review.md`|
+| Debugging an error or stack trace    | `.claude/commands/debug-trace.md`|
 | Recalling historical decisions       | `.claude/archive.md`          |
 
 ## 5. References (on-demand only)
 
-- `docs/conventions.md` — coding style, naming, import order, error handling
+- `docs/conventions.md` — TypeScript + Node coding style, naming, error handling
 - `docs/file-conventions.md` — where new files go, headers, boilerplate
 - `.claude/archive.md` — historical decisions, completed work log
 
