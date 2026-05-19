@@ -52,6 +52,8 @@ Load **only what's needed** — don't preload everything.
 | Adding tests for existing code       | `.claude/commands/add-test.md`   |
 | Self-reviewing a diff before push    | `.claude/commands/code-review.md`|
 | Debugging an error or stack trace    | `.claude/commands/debug-trace.md`|
+| Planning a refactor before coding    | `.claude/commands/refactor-plan.md`|
+| Security-auditing a diff or file     | `.claude/commands/security-review.md`|
 | Recalling historical decisions       | `.claude/archive.md`          |
 
 ## 5. References (on-demand only)
